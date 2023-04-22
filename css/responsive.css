@@ -1,0 +1,526 @@
+@media (max-width: 1181px) {
+    .container {
+        padding: 0 20px 0 50px;
+    }
+
+    .aboutMe .image::before {
+        width: 150px;
+        height: 150px;
+        top: -19px;
+        left: -19px;
+    }
+
+    .aboutMe .image::after {
+        width: 150px;
+        height: 150px;
+        bottom: -19px;
+        right: -19px;
+    }
+}
+
+@media (max-width: 1111px) {
+    h2 {
+        font-size: 17px;
+    }
+
+    .navbar .container .logo h1 {
+        font-size: 2rem;
+    }
+
+    .navbar .container .mainmenu ul li a {
+        font-size: 15px;
+        margin: 0 5px;
+    }
+
+    .heading {
+        font-size: 4rem;
+    }
+
+    .aboutMe .content .information {
+        flex-direction: column;
+    }
+
+    .aboutMe .content .co {
+        margin-top: 0;
+    }
+
+    .aboutMe .content {
+        width: 45%;
+    }
+
+    .aboutMe .image {
+        width: 45%;
+    }
+
+    .heading::after {
+        font-size: 1.3rem;
+    }
+
+    .aboutMe .content p {
+        font-size: 14px;
+    }
+
+    .aboutMe .content .co p span {
+        font-size: 14px;
+    }
+
+    .services .card {
+        width: 90%;
+        max-width: 300px;
+        padding: 30px 20px;
+        margin: 50px 10px;
+    }
+
+    .resume .icon-he h2 {
+        font-size: 25px;
+    }
+
+    .resume .card-m {
+        margin: 0 20px;
+    }
+
+    .project .content {
+        justify-content: center;
+    }
+
+    .reviews .slids .card .textmonial {
+        padding-left: 50px;
+        padding-right: 0px;
+    }
+
+    .project .card {
+        width: 30%;
+        margin: 5px 5px;
+    }
+
+    .reviews .slids .card .img {
+        width: 380px;
+        height: 100%;
+    }
+
+    .reviews .slids .controls {
+        width: 68%;
+    }
+
+    .reviews .slids .card .textmonial .txt-head span i {
+        font-size: 15px;
+    }
+
+    .reviews .slids .card .textmonial .txt-head h1 {
+        font-size: 25px;
+    }
+
+    .reviews .slids .card .textmonial .content p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 833px) {
+    .aboutMe .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutMe .image {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .aboutMe .content {
+        margin-top: 50px;
+        width: 90%;
+        text-align: center;
+    }
+
+    .aboutMe .content .information {
+        flex-direction: row;
+        text-align: left;
+    }
+
+    .resume .main-card h3 {
+        padding: 0px 10px;
+        margin-top: 5px;
+    }
+
+    .heading::after {
+        width: 250px;
+    }
+
+    .container {
+        padding: 0 30px 0 30px;
+    }
+
+    .aboutMe .content .information {
+        display: flex;
+        flex-direction: column;
+        /* text-align: center; */
+        justify-content: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar .container .mainmenu ul {
+        background-color: #ededed;
+        z-index: -1;
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cover-page .container {
+        justify-content: center;
+    }
+
+    .cover-page .container .cover-con {
+        display: flex;
+        align-items: center;
+    }
+
+    .cover-page .container .cover-con h2 {
+        font-size: 20px;
+    }
+
+    .cover-page .container .cover-con h3 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .cover-page .container .cover-con h1 {
+        font-size: 35px;
+        text-align: center;
+    }
+
+    .nav-active {
+        top: 0 !important;
+    }
+
+    .navbar .container .mainmenu ul li {
+        margin-top: 20px;
+    }
+
+    .navbar .container .mainmenu ul li a {
+        font-size: 20px;
+    }
+
+    .toggle {
+        display: block;
+        z-index: 999999999;
+        cursor: pointer;
+    }
+
+    .toggle span {
+        display: block;
+        margin-top: 5px;
+    }
+
+    .toggle:hover span {
+        background-color: #eb2f06;
+    }
+
+    .cover-page .cover-con .self {
+        animation: none;
+        width: 100%;
+        height: auto;
+        border: none;
+    }
+
+    .cover-page {
+        /* background: rgb(12, 12, 12); */
+    }
+
+    .resume .content {
+        flex-direction: column;
+        margin-top: 70px;
+    }
+
+    .resume .card-m {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .resume .card-m .ca-1 {
+        margin-top: 100px;
+    }
+
+    .resume .card-m:nth-child(2) {
+        margin-top: 40px;
+    }
+
+    .resume .top-2 {
+        top: 342px;
+    }
+
+    .resume .top-3 {
+        top: 520px;
+    }
+
+    .resume .card-m:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .skills .content {
+        flex-direction: column;
+    }
+
+    .skills .content .ourski {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .project .card:hover .overlay .linehover-hr {
+        height: 100%;
+    }
+
+    .project .card:hover .overlay .linehover {
+        width: 100%;
+    }
+
+    .project .card {
+        width: 100%;
+        max-width: 300px;
+        margin: 5px 5px;
+    }
+
+    .reviews .slids .card {
+        flex-direction: column;
+        align-items: center;
+        /* text-align: center; */
+    }
+
+    .reviews .slids .cards {
+        padding: 281px 0;
+    }
+
+    .reviews .slids .card .img {
+        width: 100%;
+        height: 100%;
+        max-width: 235px;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+
+    .reviews .slids .card .textmonial {
+        margin-top: 25px;
+    }
+
+    .reviews .slids .controls {
+        width: 88%;
+        right: 0;
+        bottom: -5%;
+    }
+
+    .footer .container p {
+        font-size: 13px;
+    }
+
+    .footer .priv a {
+        font-size: 13px;
+    }
+
+    .contact .contactus {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact .contactus .touch {
+        border-right: none;
+        min-width: 371px;
+    }
+
+    .contact .contactus .form {
+        border-right: none;
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .contact .contactus form {
+        align-items: center;
+    }
+
+    .contact .contactus .form form input {
+        width: 100%;
+    }
+
+    .contact .contactus .form form textarea {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar .container .mainmenu ul li a {
+        margin: 0 13px;
+        transition: .5s;
+    }
+
+    .resume .card-m .ca-1 {
+        margin-top: 90px;
+    }
+
+    .resume .top-2 {
+        top: 361px;
+    }
+
+    .resume .top-3 {
+        top: 560px;
+    }
+
+    .project .detail .card {
+        width: 40%;
+        margin-top: 20px;
+    }
+
+    .reviews .slids .card .textmonial {
+        padding: 0;
+    }
+
+    .reviews .slids .card .textmonial .txt-head::before {
+        display: none;
+    }
+
+    .reviews .slids .card .textmonial {
+        text-align: center;
+
+    }
+
+    .reviews .slids .card .textmonial .txt-head {
+        margin-left: 0;
+    }
+
+    .reviews .slids .controls {
+        flex-direction: column;
+        width: 100%;
+        bottom: -10%;
+    }
+
+    .reviews .dots {
+        margin-bottom: 20px;
+    }
+
+    .footer .container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 479px) {
+    * .container {
+        padding: 0 20px 0 20px;
+    }
+
+    .aboutMe .content .information {
+        text-align: center;
+    }
+
+    .aboutMe .content .information .co p * {
+        display: block;
+        margin: 0;
+    }
+
+    .aboutMe .content .information .co p {
+        margin-top: 10px;
+    }
+
+    .services .card {
+        width: 100%;
+    }
+
+    .resume .icon-he {
+        left: 50%;
+        transform: translate(-50%);
+        width: 300px;
+        text-align: center;
+        top: -40px;
+    }
+
+    .resume .top-1 {
+        display: none;
+    }
+
+    .resume .top-2 {
+        display: none;
+    }
+
+    .resume .top-3 {
+        display: none;
+    }
+
+    .resume .card-m {
+        border: none;
+    }
+
+    .resume .main-card::before {
+        display: none;
+    }
+
+    .resume .card-m:nth-child(2) {
+        margin-top: 100px;
+    }
+
+    .resume .card-m .ca-1 {
+        margin-top: 30px;
+    }
+
+    .resume .card-m {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project .detail .content {
+        justify-content: center;
+    }
+
+    .project .content .card {
+        width: 100%;
+    }
+
+    .project .detail .card {
+        width: 100%;
+        margin: 20px 5px;
+    }
+
+    .reviews .slids .card .textmonial .area {
+        flex-direction: column;
+    }
+
+    .blogs .cards .card {
+        cursor: pointer;
+        width: 80%;
+        box-shadow: 0 0 10px 1px #88888899;
+        overflow: hidden;
+        border-radius: 10px;
+        margin: 10px 10px;
+    }
+
+    .contact .contactus .touch .card .icon i {
+        font-size: 35px;
+    }
+
+    .contact .contactus .touch .cards {
+        padding: 40px 20px;
+    }
+}
+
+@media (max-width:375px) {
+    .blogs .cards .card {
+        width: 100%;
+    }
+}
+
+@media (max-width:320px) {
+    .reviews .slids .controls {
+        flex-direction: column;
+        width: 100%;
+        bottom: -15%;
+    }
+
+    .contact .contactus .touch {
+        min-width: 310px;
+    }
+}
